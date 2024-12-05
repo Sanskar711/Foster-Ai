@@ -3,7 +3,17 @@ import React from "react";
 function Sidebar({ templates, setCurrentTemplate, addNewTemplate }) {
   return (
     <div className="sidebar">
-      <button onClick={addNewTemplate} className="new-note-btn">New Note +</button>
+      {/* Header Section */}
+      <header className="sidebar-header">
+        <h1>FosterHealth</h1>
+      </header>
+
+      {/* New Note Button */}
+      <button onClick={addNewTemplate} className="new-note-btn">
+        New Note +
+      </button>
+
+      {/* Template List */}
       <ul className="template-list">
         {templates.map((template) => (
           <li
