@@ -17,7 +17,7 @@ FosterHealth is a React.js-based application designed to assist clinicians in cr
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Sanskar711/Foster-Ai.git
 cd FosterHealthApp
 ```
 ### Step 2: Install Dependencies
@@ -37,22 +37,22 @@ The application will run on http://localhost:3000.
 
 Create a New Template
 
-	•	Click the “New Note +” button in the sidebar to add a new template.
-	•	A default template is created with editable sections.
+1. Click the “New Note +” button in the sidebar to add a new template.
+2. A default template is created with editable sections.
 
 Edit Template Content
 
-	•	Select a template from the sidebar to load it in the editor.
-	•	Modify the title, section headers, and content directly in the editor.
+1. Select a template from the sidebar to load it in the editor.
+2. Modify the title, section headers, and content directly in the editor.
 
 Add Sections
 
-	•	Use the “Add Section” button to include new sections dynamically.
+1. Use the “Add Section” button to include new sections dynamically.
 
 Save Changes
 
-	•	Click “Save Template” to persist your changes to localStorage.
+1. Click “Save Template” to persist your changes to localStorage.
 
 Navigate Templates
 
-	•	Use the sidebar to switch between templates quickly.
+1. Use the sidebar to switch between templates quickly.
