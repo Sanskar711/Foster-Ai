@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# FosterHealth - Clinical Notes Template Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+FosterHealth is a React.js-based application designed to assist clinicians in creating, editing, and managing clinical notes using customizable templates. The application supports dynamic sections (e.g., "Subjective," "Physical Examination") and provides an interactive interface for efficient note-taking.
 
-## Available Scripts
+## Features
+- **Create New Templates:** Add new clinical note templates with editable titles and dynamic sections.
+- **Edit Templates:** Modify section titles and content easily.
+- **Dynamic Sections:** Add, edit, or remove sections as needed for each template.
+- **Persistence:** Templates are saved locally using `localStorage` and remain available across page refreshes.
+- **Copy and Edit Actions:** Use inline actions to edit, copy, or delete specific sections.
+- **Interactive Sidebar:** Quickly navigate between templates with timestamps and hover effects.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Step 1: Clone the Repository
+```bash
+git clone <repository-url>
+cd FosterHealthApp
+```
+### Step 2: Install Dependencies
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Ensure you have Node.js installed. Then run:
 
-### `npm test`
+```bash
+npm install
+```
+### Step 3: Start the Application
+```bash
+npm start
+```
+The application will run on http://localhost:3000.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Usage Instructions
 
-### `npm run build`
+Create a New Template
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	•	Click the “New Note +” button in the sidebar to add a new template.
+	•	A default template is created with editable sections.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit Template Content
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+	•	Select a template from the sidebar to load it in the editor.
+	•	Modify the title, section headers, and content directly in the editor.
 
-### `npm run eject`
+Add Sections
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+	•	Use the “Add Section” button to include new sections dynamically.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Save Changes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+	•	Click “Save Template” to persist your changes to localStorage.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Navigate Templates
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+	•	Use the sidebar to switch between templates quickly.
